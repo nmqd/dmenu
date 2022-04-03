@@ -4,6 +4,9 @@
 static int topbar = 1;                      /* -b  option; if 0, dmenu appears at bottom     */
 static int centered = 0;                    /* -c option; centers dmenu on screen */
 static int min_width = 500;                 /* minimum width when centered */
+static const int vertpad = 10;              /* vertical padding of bar */
+static const int sidepad = 10;              /* horizontal padding of bar */
+
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
 	"monospace:size=10"
